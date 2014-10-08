@@ -1,0 +1,68 @@
+<%= form_for @location, :html => { :class => 'form-horizontal' } do |f| %>
+    <div class="control-group">
+      <%= f.label :name, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :name, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :address_1, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :address_1, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :address_2, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :address_2, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :postal_code_name, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :postal_code_name, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :postal_code_suffix, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :postal_code_suffix, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :phone_number, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :phone_number, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :country, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :country, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :latitude, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :latitude, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :longitude, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :longitude, :class => 'text_field' %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :radius, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :radius, :class => 'text_field' %>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                  locations_path, :class => 'btn' %>
+    </div>
+<% end %>

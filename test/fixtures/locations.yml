@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  address_1: MyString
+  address_2: MyString
+  postal_code_name: MyString
+  postal_code_suffix: MyString
+  country: MyString
+  latitude: 1.5
+  longitude: 1.5
+  radius: 1.5
+
+two:
+  name: MyString
+  address_1: MyString
+  address_2: MyString
+  postal_code_name: MyString
+  postal_code_suffix: MyString
+  country: MyString
+  latitude: 1.5
+  longitude: 1.5
+  radius: 1.5

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2936525390">
+    <data-source source="LOCAL" name="Rails verve_code_challenge: development" uuid="0b50cdc9-af6b-40d6-9154-83e289728ffd">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/verve_development</jdbc-url>
+      <user-name>verveUser</user-name>
+      <user-password>dfdadfeadf8edf8edfdddf9adfd8dfcedf8b</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails verve_code_challenge: test" uuid="41cafc2d-e83a-4265-945a-091d970d264f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/verve_test</jdbc-url>
+      <user-name>verveUserTest</user-name>
+      <user-password>dfdadfeadf8edf8edfdddf9adfd8dfcedf8b</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
